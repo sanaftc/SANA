@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    rgba(224, 232, 247, 1) 0%,
+    rgba(0, 36, 245, 1) 0%,
+    rgba(7, 33, 238, 1) 225%
+  );
+  height: 7vh;
+  color: aliceblue;
+  background-repeat: no-repeat;
+}
+
+#ThemainTitle {
+  margin-right: 300px;
+  padding-top: 2px;
+}
+
+#SD {
+  margin-left: 15px;
+  width: 150px;
+}
+
+button {
+  margin-top: 15px;
+  color: aliceblue;
+  margin-right: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: 120px;
+}
+
+#upperbuttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 500px;
+  width: 50%;
+}
+
+.search-container {
+  position: relative;
+  width: 40px;
+  transition: width 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container:hover {
+  width: 200px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.search-container:hover .search-input {
+  opacity: 1;
+  margin-top: 1px;
+  pointer-events: auto;
+  margin-bottom: 30px;
+  width: 280px;
+}
+
+#search-button {
+  position: absolute;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 18px;
+  outline: none;
+  border-radius: 20px;
+  margin-left: 270px;
+  margin-bottom: 40px;
+}
+
+#title1 {
+  color: black;
+  margin-top: 0.5rem;
+  margin-left: 5rem;
+  font-size: 20px;
+}
+
+#customLine {
+  border: none;
+  border-top: 1px solid grey;
+  width: 90%;
+  margin-left: 5rem;
+  margin-top: 0.5rem;
+}
+
+#anotherHor {
+  margin-left: 5px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+}
+
+#anotherHor:hover {
+  color: blue;
+}
+
+.photoH {
+  width: 550px;
+  height: 350px;
+  border-radius: 15px;
+}
+
+.imageOfHorm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.textOfIma {
+  margin-left: 10px;
+  margin-left: 20px;
+  max-width: 500px;
+  color: black;
+}
+
+.textOfIma a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.imageOfHorm_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#customLine2 {
+  border: none;
+  border-top: 1px solid grey;
+  width: 90%;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+
+#habitImage {
+  margin-top: 10px;
+  margin-left: 80px;
+  width: 10rem;
+  height: 7rem;
+  border: none;
+  border-radius: 10px;
+}
+
+#habitQuestion {
+  padding-top: 40px;
+  margin-left: 5px;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+}
+
+#habitQuestion:hover {
+  color: blue;
+}
+
+.miniQuestions {
+  display: flex;
+}
+
+#HormonalHarmony {
+  color: black;
+  padding-top: 40px;
+  margin-left: 5px;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+}
+
+#HormonalHarmony:hover {
+  color: blue;
+}
+
+#HormonalHarmonyImage {
+  margin-top: 10px;
+  margin-left: 80px;
+  width: 10rem;
+  height: 7rem;
+  border: none;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
